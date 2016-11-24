@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="degenius.ekspedisi">
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="CITY KURIR"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="degenius.ekspedisi.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Splashscreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HalamanUtama"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="degenius.ekspedisi.HalamanUtama" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PesanBaru"
+            android:parentActivityName=".HalamanUtama"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="degenius.ekspedisi.PesanBaru" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LihatStatus"
+            android:parentActivityName=".HalamanUtama"
+            android:screenOrientation="portrait" >
+            <action android:name="degenius.ekspedisi.LihatStatus" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity
+            android:name=".HistoriTransaksi"
+            android:parentActivityName=".HalamanUtama"
+            android:screenOrientation="portrait" >
+            <action android:name="degenius.ekspedisi.HistoriTransaksi" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity
+            android:name=".TentangKami"
+            android:parentActivityName=".HalamanUtama"
+            android:screenOrientation="portrait" >
+            <action android:name="degenius.ekspedisi.TentangKami" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name=".GantiPassword"
+            android:parentActivityName=".HalamanUtama"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="degenius.ekspedisi.GantiPassword" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

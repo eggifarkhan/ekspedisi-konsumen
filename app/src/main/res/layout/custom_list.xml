@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textJudul"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textStatus"
+        android:layout_below="@+id/textTujuan"
+        android:layout_alignLeft="@+id/textTujuan"
+        android:layout_alignStart="@+id/textTujuan" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTujuan"
+        android:layout_below="@+id/textJudul"
+        android:layout_alignLeft="@+id/textJudul"
+        android:layout_alignStart="@+id/textJudul" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTanggal"
+        android:layout_alignBaseline="@+id/textStatus"
+        android:layout_alignBottom="@+id/textStatus"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

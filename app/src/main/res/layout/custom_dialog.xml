@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="Tgl Pesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/txtBar"
+        android:layout_alignLeft="@+id/txtBar"
+        android:layout_alignStart="@+id/txtBar" />
+
+    <TextView
+        android:text="txtTgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toRightOf="@+id/txtBar"
+        android:layout_toEndOf="@+id/txtBar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/txtTgl" />
+
+    <TextView
+        android:text="txtHg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHg"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/txtTgl"
+        android:layout_alignStart="@+id/txtTgl" />
+
+    <TextView
+        android:text="txtKur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtKur"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/txtHg"
+        android:layout_alignStart="@+id/txtHg" />
+
+    <TextView
+        android:text="txtBm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtBm"
+        android:layout_above="@+id/textView6"
+        android:layout_alignLeft="@+id/txtKur"
+        android:layout_alignStart="@+id/txtKur" />
+
+    <TextView
+        android:text="txtStat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtStat"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignLeft="@+id/txtBm"
+        android:layout_alignStart="@+id/txtBm" />
+
+    <TextView
+        android:text="txtJumlah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_alignLeft="@+id/txtTujuan"
+        android:layout_alignStart="@+id/txtTujuan"
+        android:id="@+id/txtJumlah" />
+
+    <TextView
+        android:text="txtTujuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTujuan"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignLeft="@+id/txtTgl"
+        android:layout_alignStart="@+id/txtTgl" />
+
+    <TextView
+        android:text="Tujuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:text="Kurir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView4"
+        tools:text="Kurir"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:text="NoPol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView5"
+        tools:text="NoPol"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignStart="@+id/textView15" />
+
+    <TextView
+        android:text="Biaya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView3"
+        tools:text="Biaya"
+        android:layout_below="@+id/textView15"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignStart="@+id/textView15" />
+
+    <TextView
+        android:text="Jumlah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/textView15"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:text="Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView6"
+        tools:text="Status"
+        android:layout_below="@+id/textView5"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:text="txtJam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtJam"
+        android:paddingLeft="10dp"
+        android:layout_alignBaseline="@+id/txtTgl"
+        android:layout_alignBottom="@+id/txtTgl"
+        android:layout_toRightOf="@+id/txtTgl"
+        android:layout_toEndOf="@+id/txtTgl" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtBar"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:text="Batalkan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonBatal"
+        style="@android:style/Widget.Material.Button"
+        android:elevation="@dimen/design_fab_elevation"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/textView6"
+        android:layout_toLeftOf="@+id/txtStat"
+        android:layout_toStartOf="@+id/txtStat" />
+
+</RelativeLayout>
