@@ -51,6 +51,5 @@
         android:layout_below="@+id/editJumlah"
         android:layout_marginTop="12dp"
         style="@android:style/Widget.Material.Button"
-        android:elevation="@dimen/design_fab_elevation"
-        android:background="@color/colorAccent" />
+        android:elevation="@dimen/design_fab_elevation" />
 </RelativeLayout>

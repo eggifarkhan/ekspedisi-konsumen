@@ -43,7 +43,7 @@
         android:fontFamily="sans-serif"
         android:textSize="30sp"
         android:layout_marginTop="74dp"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/cardview_dark_background"
         android:layout_below="@+id/viewPager"
         android:layout_centerHorizontal="true" />
 
@@ -55,7 +55,7 @@
         android:id="@+id/textView12"
         android:textSize="30sp"
         android:textAllCaps="true"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/cardview_dark_background"
         android:textStyle="normal|bold"
         android:layout_alignTop="@+id/textView11"
         android:layout_centerHorizontal="true" />

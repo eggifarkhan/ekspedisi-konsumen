@@ -22,7 +22,7 @@
         android:layout_weight="0.41"
         android:textAlignment="textEnd"
         tools:text="Logout"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/cardview_dark_background"
         android:textStyle="normal|bold"
         android:clickable="true" />
 

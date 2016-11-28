@@ -8,7 +8,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="degenius.ekspedisi.MainActivity">
+    tools:context="degenius.ekspedisi.MainActivity"
+    android:background="@drawable/indo"
+    android:elevation="0dp">
 
     <EditText
         android:layout_width="match_parent"
@@ -44,6 +46,5 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         style="@android:style/Widget.Material.Button"
-        android:elevation="@dimen/design_fab_elevation"
-        android:background="@color/colorAccent" />
+        android:elevation="@dimen/design_fab_elevation" />
 </RelativeLayout>
